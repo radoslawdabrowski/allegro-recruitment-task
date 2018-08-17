@@ -1,0 +1,5 @@
+1. My ExceptionHandler can be more sophisticated by using actual Exceptions.
+2. DtoConverter should have 1 layer of implementation more, should it be generic -> interface -> implementation instead of generic -> implementation.
+3. DtoConverter would be needed much more if response from Github api and response of this service would be different.
+4. Static final properties from constraints classes could be Enums with getValue() overridden method but I prefer simpler solution.
+5. githubRepositoryNotFound function - switch would be not necessary if I would use custom exceptions instead of that shortcut.
